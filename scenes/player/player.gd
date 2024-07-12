@@ -16,6 +16,6 @@ func _process(delta):
 
 
 func get_movement_verctor():
-	var x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
+	var x = Input.get_action_strength("move_right") - Input.get_action_strength("move _left")
 	var y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	return Vector2(x, y)
