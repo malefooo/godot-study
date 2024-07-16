@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1721134563
+icon.svg::CompressedTexture2D::148891245723407382::1720429630::1720429637::1::::<><>::
+README.md::TextFile::-1::1721132140::0::1::::<><>::
+::res://assets/::1721118647
+::res://assets/environment/::1721118661
+tilemap_packed.png::CompressedTexture2D::621907281085461311::1721118538::1721118661::1::::<><>::
+::res://resources/::1721119571
+tileset.tres::TileSet::7405177515914391747::1721119571::0::1::::<><>::uid://i4iysx0xe632::::res://assets/environment/tilemap_packed.png
+::res://scenes/::1721117683
+::res://scenes/main/::1721119665
+main.tscn::PackedScene::8523076374557985921::1721119665::0::1::::<><>::uid://ddregrxuxo2jf::::res://resources/tileset.tres<>uid://bt5h2keco3gsd::::res://scenes/player/player.tscn
+::res://scenes/player/::1721119610
+plaer.gd::GDScript::-1::1721117889::0::1::::<>CharacterBody2D<>::
+player.png::CompressedTexture2D::663339571677730425::1721113402::1721115068::1::::<><>::
+player.tscn::PackedScene::3782413812345713791::1721119610::0::1::::<><>::res://scenes/player/plaer.gd<>uid://jplduls8pqi8::::res://scenes/player/player.png
