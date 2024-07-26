@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://53meaeit1oda"]
+
+[ext_resource type="Script" path="res://scenes/game_camera.tscn/gamec_camera.gd" id="1_ho23u"]
+
+[node name="GamecCamera" type="Camera2D"]
+position = Vector2(-1, 0)
+script = ExtResource("1_ho23u")
