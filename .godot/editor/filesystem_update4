@@ -1,5 +1,2 @@
-res://scenes/player/player.tscn
-res://resources/tileset.tres
-res://scenes/main/main.tscn
 res://scenes/game_camera/game_camera.tscn
-res://scenes/game_camera/game_camera.gd
+res://resources/tileset.tres
