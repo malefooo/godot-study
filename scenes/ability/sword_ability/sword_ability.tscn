@@ -88,4 +88,5 @@ autoplay = "swing"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, -4)
+rotation = -0.00661122
 texture = ExtResource("1_jbjs7")
