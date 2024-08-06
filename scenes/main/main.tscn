@@ -1,23 +1,20 @@
-[gd_scene load_steps=10 format=3 uid="uid://b6crlam7f31nc"]
+[gd_scene load_steps=9 format=3 uid="uid://b6crlam7f31nc"]
 
-[ext_resource type="PackedScene" uid="uid://bn5vkglt26bnv" path="res://scenes/player/player.tscn" id="1_2jsuo"]
-[ext_resource type="PackedScene" uid="uid://b8da20uxd57fu" path="res://scenes/game_camera/game_camera.tscn" id="1_3l53h"]
+[ext_resource type="PackedScene" uid="uid://bn5vkglt26bnv" path="res://scenes/game_object/player/player.tscn" id="1_2jsuo"]
+[ext_resource type="PackedScene" uid="uid://b8da20uxd57fu" path="res://scenes/game_object/game_camera/game_camera.tscn" id="1_3l53h"]
 [ext_resource type="PackedScene" uid="uid://ddscary0my6eu" path="res://scenes/manager/enemy_manager.tscn" id="1_e7i5a"]
 [ext_resource type="PackedScene" uid="uid://cc06tyjov3n68" path="res://scenes/ui/arena_time_ui.tscn" id="1_s7gb5"]
 [ext_resource type="PackedScene" uid="uid://dtet5ya72b60m" path="res://scenes/manager/arena_time_manager.tscn" id="2_30gvt"]
-[ext_resource type="Script" path="res://scenes/player/player.gd" id="2_crr83"]
-[ext_resource type="Script" path="res://scenes/ui/arena_time_ui.gd" id="2_lm3bh"]
+[ext_resource type="Script" path="res://scenes/game_object/player/player.gd" id="2_crr83"]
 [ext_resource type="TileSet" uid="uid://babc8xkuyq3wl" path="res://resources/tileset.tres" id="3_6cicg"]
-[ext_resource type="Script" path="res://scenes/manager/arena_time_manager.gd" id="4_pvewh"]
+[ext_resource type="PackedScene" uid="uid://db2vfgj8b6oqn" path="res://scenes/game_object/experience_ vial/experience_vial.tscn" id="8_kxddc"]
 
 [node name="Main" type="Node"]
 
 [node name="ArenaTimeUI" parent="." node_paths=PackedStringArray("arene_time_manager") instance=ExtResource("1_s7gb5")]
-script = ExtResource("2_lm3bh")
 arene_time_manager = NodePath("../AreanaTimeManager")
 
 [node name="AreanaTimeManager" parent="." instance=ExtResource("2_30gvt")]
-script = ExtResource("4_pvewh")
 
 [node name="EnemyManager" parent="." instance=ExtResource("1_e7i5a")]
 
@@ -31,3 +28,6 @@ layer_0/tile_data = PackedInt32Array(655380, 0, 4, 589844, 0, 4, 524308, 0, 4, 4
 [node name="Player" parent="." instance=ExtResource("1_2jsuo")]
 position = Vector2(131, 102)
 script = ExtResource("2_crr83")
+
+[node name="ExperienceVial" parent="." instance=ExtResource("8_kxddc")]
+position = Vector2(20, 147)
