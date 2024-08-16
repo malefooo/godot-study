@@ -74,6 +74,35 @@ layer_0/tile_data = PackedInt32Array(-65539, 65536, 4, -65538, 327680, 4, -65537
 [node name="player" parent="." instance=ExtResource("1_3y46j")]
 
 [node name="BasicEnemy" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(340, 68)
+
+[node name="BasicEnemy2" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(112, 146)
+
+[node name="BasicEnemy3" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(379, 193)
+
+[node name="BasicEnemy4" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(-34, 167)
+
+[node name="BasicEnemy5" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(130, 69)
+
+[node name="BasicEnemy6" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(192, 125)
+
+[node name="BasicEnemy7" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(131, 249)
+
+[node name="BasicEnemy8" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(-11, 112)
+
+[node name="BasicEnemy9" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(49, 201)
+
+[node name="BasicEnemy10" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(245, 185)
+rotation = -0.542623
 position = Vector2(286, 54)
 
 
