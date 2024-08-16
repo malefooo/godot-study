@@ -1,4 +1,6 @@
+
 [gd_scene load_steps=6 format=3 uid="uid://sxdl4m8e5y4e"]
+[gd_scene load_steps=5 format=3 uid="uid://sxdl4m8e5y4e"]
 
 [ext_resource type="Texture2D" uid="uid://ct1a1pfrm1hic" path="res://scenes/Ability/SwordAbility/seord.png" id="1_bfc7r"]
 
@@ -28,6 +30,7 @@ tracks/1/keys = {
 "update": 0,
 "values": [Vector2(1, 1)]
 }
+
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true

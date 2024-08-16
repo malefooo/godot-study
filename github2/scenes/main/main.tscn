@@ -103,3 +103,10 @@ position = Vector2(49, 201)
 [node name="BasicEnemy10" parent="." instance=ExtResource("4_g3chl")]
 position = Vector2(245, 185)
 rotation = -0.542623
+position = Vector2(286, 54)
+
+
+[node name="BasicEnemy2" parent="." instance=ExtResource("4_g3chl")]
+position = Vector2(109, 141)
+
+
